@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Drive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Daily Drive</h1>
+  
+  
+  <div id="taskForm">
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <input type="date" id="taskDate">
+    <input type="time" id="taskTime">
+    <select id="taskCategory">
+      <option value="work">Work</option>
+      <option value="personal">Personal</option>
+      <option value="misc">Misc</option>
+    </select>
+    <button id="addTaskButton">Add Task</button>
+
+  </div>
+  <ul id="tasks"></ul>
+  <audio id="notificationSound" src="saints_marching_in.mp3"></audio>
+  <script src="app.js"></script>
+</body>
+</html>
